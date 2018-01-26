@@ -1,11 +1,15 @@
 "use strict";
 
+var debug = require('debug')('body-parser:msgpack')
+
 const read = require("body-parser/lib/read");
 const msgpack = require("msgpack5")();
+const bytes = require('bytes');
+const typeIs = require('type-is');
 
 function typeChecker(type) {
     return function checkType(req) {
-        return Boolean(typeis(req, type))
+        return Boolean(typeIs(req, type))
     }
 }
 
@@ -51,7 +55,7 @@ module.exports = function(bodyParser) {
             req.body = req.body || {};
 
             // skip requests without bodies
-            if (!typeis.hasBody(req)) {
+            if (!typeIs.hasBody(req)) {
                 debug('skip empty body');
                 return  next();
             }

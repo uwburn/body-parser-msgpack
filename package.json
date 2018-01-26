@@ -26,6 +26,9 @@
   "homepage": "https://github.com/uwburn/body-parser-msgpack#readme",
   "dependencies": {
     "body-parser": "^1.18.2",
-    "msgpack5": "^4.0.1"
+    "bytes": "^3.0.0",
+    "debug": "^3.1.0",
+    "msgpack5": "^4.0.1",
+    "type-is": "^1.6.15"
   }
 }
