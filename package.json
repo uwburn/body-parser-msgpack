@@ -1,0 +1,31 @@
+{
+  "name": "body-parser-msgpack",
+  "version": "1.0.0",
+  "description": "Express body-parser msgpack extension",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uwburn/body-parser-msgpack.git"
+  },
+  "keywords": [
+    "express",
+    "xml",
+    "middleware",
+    "body-parser\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[C\u001b[Cmsgpack",
+    "middleware",
+    "body-parser"
+  ],
+  "author": "Michele Tibaldi <michele.tibaldi@holonix.it> (http://www.holonix.it)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/uwburn/body-parser-msgpack/issues"
+  },
+  "homepage": "https://github.com/uwburn/body-parser-msgpack#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "msgpack5": "^4.0.1"
+  }
+}
